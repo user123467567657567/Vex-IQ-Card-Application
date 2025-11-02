@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-****
-
-
 *How to use*
 [time][device][port][action]
 first 13bits are binary to be 60 seconds + 2 decimal places
