@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ****
 
 
@@ -48,3 +49,7 @@ Gyro
         { "STP", "Stop" },
         { "PRS", "Pressed" },
         { "TCH", "TouchLED Pressed" }
+=======
+# Vex-IQ-Card-Application
+A C# application that decodes a string and shows it to you from a VEX IQ program.
+>>>>>>> 469ab35fdf76ae40f30c6c0b331dce1be077b1bf
