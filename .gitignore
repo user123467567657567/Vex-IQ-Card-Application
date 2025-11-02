@@ -1,0 +1,15 @@
+# Build outputs
+bin/
+obj/
+
+# Executables
+*.exe
+*.pdb
+
+# User-specific settings
+*.user
+*.suo
+
+# Dependencies
+*.deps.json
+*.runtimeconfig.json
