@@ -33,7 +33,7 @@ namespace VexCardDebugger
             public float LogFontSize { get; set; } = 10f;
         }
 
-        // ====== \\ Constructor ====== \\
+        // ====== \\ Constructor ====== \\\
         public MainForm()
         {
             exeFolder = AppDomain.CurrentDomain.BaseDirectory;

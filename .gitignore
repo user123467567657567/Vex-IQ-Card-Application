@@ -35,6 +35,7 @@ obj/
 # User-specific settings
 *.user
 *.suo
+*.deps.json
 
 # Dependencies
 *.deps.json
