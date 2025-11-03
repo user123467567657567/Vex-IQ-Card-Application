@@ -1,0 +1,25 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+Publish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+
+# Dotnet Publish outputs
+publish/
+*.dll
+*.pdb
+*.exe
+
+# Others
+*.log
