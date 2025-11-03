@@ -41,7 +41,12 @@ namespace VexCardDebugger
             sdDrive = @"V:\";
 
             Text = "VEX SD Card Debugger";
-            Size = new Size(900, 520);
+
+            // Fullscreen setup
+            FormBorderStyle = FormBorderStyle.None;
+            WindowState = FormWindowState.Maximized;
+            TopMost = true;
+
             StartPosition = FormStartPosition.CenterScreen;
 
             LoadSettings();
@@ -131,7 +136,7 @@ namespace VexCardDebugger
             contentTable.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
             mainLayout.Controls.Add(contentTable, 0, 1);
 
-            // File list (sidebar)
+            // File list (sidebar) - no warning by declaring here directly
             fileList = new ListView
             {
                 View = View.List,
@@ -144,10 +149,10 @@ namespace VexCardDebugger
             };
             fileList.DrawItem += FileList_DrawItem;
             fileList.SelectedIndexChanged += FileList_SelectedIndexChanged;
-            fileList.MouseUp += FileList_MouseUp; // <-- Add right-click event
+            fileList.MouseUp += FileList_MouseUp;
             contentTable.Controls.Add(fileList, 0, 0);
 
-            // Log box (token area)
+            // Log box
             logBox = new RichTextBox
             {
                 Dock = DockStyle.Fill,
